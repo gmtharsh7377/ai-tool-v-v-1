@@ -51,6 +51,10 @@ export function AdSenseConfig({ pubId = "ca-pub-REPLACE_WITH_YOURS", slotId = "R
   }, [pubId]);
 
   return (
+  <body>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2635047771308146"
+     crossorigin="anonymous"></script>
+  </body>
     <div className="w-full flex justify-center my-4" aria-hidden>
       <ins className="adsbygoogle block w-full max-w-4xl h-20 md:h-60"
         style={{ display: "block" }}
