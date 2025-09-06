@@ -136,6 +136,9 @@ export default function AIVideoStudio() {
   };
 
   return (
+  <head>
+    <meta name="google-adsense-account" content="ca-pub-2635047771308146">
+  </head>
     <main className="min-h-screen bg-gray-50 text-gray-900 p-4 md:p-8">
       <SEOHead />
       <header className="max-w-6xl mx-auto mb-6">
